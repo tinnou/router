@@ -163,7 +163,7 @@ reqwest = { version = "0.11.13", default-features = false, features = [
 router-bridge = "0.1.12"
 rust-embed="6.4.2"
 rustls = "0.20.7"
-rustls-pemfile = "1.0.1"
+rustls-pemfile = "1.0.2"
 schemars = { version = "0.8.11", features = ["url"] }
 shellexpand = "3.0.0"
 sha2 = "0.10.6"
@@ -176,7 +176,7 @@ static_assertions = "1.1.0"
 strum_macros = "0.24.3"
 sys-info = "0.9.1"
 thiserror = "1.0.38"
-tokio = { version = "1.24.1", features = ["full"] }
+tokio = { version = "1.24.2", features = ["full"] }
 tokio-stream = { version = "0.1.11", features = ["sync", "net"] }
 tokio-util = { version = "0.7.4", features = ["net", "codec"] }
 tonic = { version = "0.8.3", features = ["transport", "tls", "tls-roots", "gzip"] }
