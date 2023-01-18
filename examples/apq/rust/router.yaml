@@ -1,0 +1,10 @@
+supergraph:
+  introspection: true
+  listen: "0.0.0.0:7001"
+homepage:
+  enabled: false
+sandbox:
+  enabled: true
+plugins:
+  example.apq:
+    enabled: true

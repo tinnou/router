@@ -338,6 +338,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "apq"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "apollo-router",
+ "async-trait",
+ "futures",
+ "http",
+ "schemars",
+ "serde",
+ "serde_json",
+ "serde_json_bytes",
+ "tokio",
+ "tower",
+]
+
+[[package]]
 name = "arbitrary"
 version = "1.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
