@@ -134,6 +134,7 @@ impl Plugin for AllowClientIdFromFile {
                 };
             }
             async {
+                let path = allowed_ids_path.clone();
                 // Check to see if we built a response. If we did, we need to Break.
                 match res {
                     Some(res) => Ok(ControlFlow::Break(res)),
